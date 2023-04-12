@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+}
+
+.background-image {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+}
+
+.take-care-form {
+  padding: 0px 40px 40px 40px;
+}
+
+.take-care-form h1 {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 48px;
+  color: #212E55;
+  padding-bottom: 20px;
+}
+
+.take-care-form form {
+  width: 100%;
+}
+
+.take-care-form form p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.take-care-form form p img {
+  margin-right: 10px;
+}
+
+.take-care-form form p input {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  border-bottom: 2px solid #979797;
+  outline: none;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  color: #404040;
+}
+
+.take-care-form form h4 {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  color: #CC3333;
+  padding-bottom: 20px;
+}
+
+.take-care-form form button {
+  width: 100%;
+  padding: 12px 100px;
+  margin-bottom: 10px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  background-color: #0165FF;
+}
+
+@media (max-width: 375px) {
+  .background-image {
+    padding: 10px !important;
+  }
+  .take-care-form {
+    padding: 0px 10px 10px 10px;
+  }
+}
