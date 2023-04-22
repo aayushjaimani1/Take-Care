@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+nav p {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  color: #2B454E;
+}
+
+nav p img {
+  margin-right: 20px;
+}
+
+section {
+  width: 100%;
+  padding: 20px;
+}
+
+section #img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+section button {
+  width: 100%;
+  padding: 12px 100px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  background-color: #2B454E;
+}
